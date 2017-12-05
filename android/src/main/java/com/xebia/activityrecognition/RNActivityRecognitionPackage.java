@@ -11,7 +11,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class RNActivityRecognitionPackage implements ReactPackage {
-    @Override
+    // @Override deprecated RN 0.47
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
